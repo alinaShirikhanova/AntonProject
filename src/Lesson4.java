@@ -39,19 +39,5 @@ public class Lesson4 {
 
 //        int x = 13;
 //        boolean res = 5 < x && x < 10;
-
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int cnt = 1;
-
-        int[] array = new int[n];
-        for (int i = n; i > 0; i--) {
-            array[i - 1] = cnt;
-            cnt += 1;
-        }
-
-        for (int i = 0; i < n; i++) {
-            System.out.print(array[i] + " ");
-        }
     }
 }
