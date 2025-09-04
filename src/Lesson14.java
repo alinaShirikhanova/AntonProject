@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Lesson14 {
     public static void main(String[] args) {
 //        Есть ли среди двузначных чисел число, которое делится и на 3, и на 7
@@ -22,9 +24,35 @@ public class Lesson14 {
         // Нет
 
 
-        int sum = 0;
-        for (int i = 1; i <= 10; i++) {
-            sum += i;
+//        int sum = 0;
+//        for (int i = 1; i <= 10; i++) {
+//            sum += i;
+//        }
+
+
+        for (int i = 0; i < 50; i++) {
+            if (i % 3 != 0){
+                System.out.println(i);
+            }
         }
+
+
+        for (int i = 0; i < 50; i++) {
+            if (i % 3 == 0){
+               continue;
+            }
+            System.out.println(i);
+        }
+
+
+
+
+
+
+
+
+
+
+
     }
 }
