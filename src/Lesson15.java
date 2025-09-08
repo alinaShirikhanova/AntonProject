@@ -40,8 +40,8 @@ public class Lesson15 {
 //        int mark6 = 4;
 //        System.out.println(mark1+ " " + ma);
 //# 1 способ
-        int[] marks = {5, 4, 5, 4, 4, 5};
-        char[] symbols = {'a', 'b', 'c'};
+//        int[] marks = {5, 4, 5, 4};
+//        char[] symbols = {'a', 'b', 'c'};
 //        System.out.println(marks);
 //        System.out.println(marks[0]);
 //        System.out.println(marks[1]);
@@ -50,8 +50,17 @@ public class Lesson15 {
 //        System.out.println(marks[4]);
 //        System.out.println(marks[5]);
 
-        for (int i = 0; i < 6; i++) {
-            System.out.println(marks[i]);
+//        for (int i = 0; i < marks.length; i++) {
+//            System.out.println(marks[i]);
+//        }
+//Распечатать только положительные элементы
+        int[] numbers = {-5, -4, 5, 4, 2, 3, 4, -5, 6, -7, 7, 8, -899, 0};
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] > 0) {
+                System.out.println(numbers[i]);
+            }
+
         }
 
 
