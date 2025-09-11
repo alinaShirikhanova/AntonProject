@@ -4,13 +4,21 @@ public class Lesson16 {
 //            System.out.println(marks[i]);
 //        }
 //Распечатать только положительные элементы
-        int[] numbers = {-5, -4, 5, 4, 2, 3, 4, -5, 6, -7, 7, 8, -899, 0};
+//        int[] numbers = {-5, -4, 5, 4, 2, 3, 4, -5, 6, -7, 7, 8, -899, 0};
+//
+//        for (int i = 0; i < numbers.length; i++) {
+//            if (numbers[i] > 0) {
+//                System.out.println(numbers[i]);
+//            }
+//
+//        }
 
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] > 0) {
-                System.out.println(numbers[i]);
-            }
 
-        }
+
+
+
+
+
+
     }
 }
