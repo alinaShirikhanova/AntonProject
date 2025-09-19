@@ -21,13 +21,15 @@ public class Lesson18 {
 //        System.out.println(max);
 
 
-        int[] arr = {1, 4, 7, 2, 10};
-
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > arr[i - 1]) {
-                System.out.println("Нашел");
-            }
-        }
+//        int[] arr = {1, 4, 7, 2, 10};
+//        // Посчитать сколько элементов больше предыдущего
+//        int counter = 0;
+//        for (int i = 1; i < arr.length; i++) {
+//            if (arr[i] > arr[i - 1]) {
+//                counter++;
+//            }
+//        }
+//        System.out.println(counter);
 
     }
 }
