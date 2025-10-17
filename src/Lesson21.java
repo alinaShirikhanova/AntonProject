@@ -24,9 +24,11 @@ public class Lesson21 {
 //        }
 
 
-
-
-
+//        char[][] chars = {
+//                {' ', ' ', ' '},
+//                {' ', ' ', ' '},
+//                {' ', ' ', ' '}
+//        };
 
 
 //        for (int i = 0; i < n; i++) {
@@ -35,11 +37,6 @@ public class Lesson21 {
 //            }
 //            System.out.println();
 //        }
-
-
-
-
-
 
 
 //        System.out.println(arr);
